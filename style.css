@@ -1,0 +1,37 @@
+html{
+    font-size: 64.5%;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+    background-color:#fff;
+    font-size: 1.5rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex; 
+     justify-content: center;
+     align-items: center;
+}
+
+.container{
+    position: relative;
+    background-color: #fff;
+    border: 5px solid red;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(190, 190, 190, 0.2);
+}
+
+.results-container{
+    border: 5px solid yellow;
+    border-radius: 0 10px 10px 0;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.summary-container{
+    float: left;
+}

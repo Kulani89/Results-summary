@@ -6,32 +6,123 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+    font-family: "sans-serif", Geneva, Tahoma, Verdana;
     background-color:#fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 100vw;
     height: 100vh;
     display: flex; 
-     justify-content: center;
-     align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
-    position: relative;
+    /* position: relative; */
+    /* width: 400px; */
     background-color: #fff;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     border-radius: 20px;
-    box-shadow: 5px 5px 10px rgba(190, 190, 190, 0.2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    /* rgba(190, 190, 190, 0.2); */
 }
 
 .results-container{
-    border: 5px solid yellow;
-    border-radius: 0 10px 10px 0;
+    position: relative;
+    /* border: 5px solid yellow; */
+    background-color: rgba(0, 0, 255, 0.7);
+    color: #fff;
+    border-radius: 15px 20px 20px 15px;
     float: left;
     width: 50%;
+    height: 300px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.results-txt{
+    position: absolute;
+    top: 5px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
+#test-results{
+    position: absolute;
+    top: 60px;
+    /* border: 2px solid black; */
+    width: 100px;    
+    height: 100px;
+    border-radius: 50%;
+    /* margin-left: 33%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 255);
+    /* box-sizing: 1px 1px 1px 5px rgba(0, 0, 0, 0.3);   */
+}
+#test-message{
+    position: absolute;
+    top: 160px;
+    font-size: 1.6rem;
+}
+p{
+    margin-top: 230px;
+    padding: 25px;
+    color: rgba(255, 255, 255, 0.8);
+}
 .summary-container{
-    float: left;
+    position: relative;
+}
+
+.summary-txt{
+    position: absolute;
+    /* top: 5px; */
+    left: 240px;
+
+}
+.summary-list{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    border-radius: 6px;
+    margin: 10px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    width: 170px;
+    height: 33px;
+    font-weight: bold;
+}
+
+#reaction{
+    background-color: rgba(255, 0, 0, 0.04);
+    color: red;
+}
+
+#memory{
+    background-color: rgba(255, 166, 0, 0.1);
+    color: orange;
+}
+
+#verbal{
+    background-color: #68db7426;
+    color: green;
+}
+#visual{
+    background-color:rgba(0, 0, 255, 0.1) ;
+    color: blue ;
+}
+.per-hundred{
+    color: rgb(161, 160, 160);
+}
+button{
+    background-color: rgb(17, 17, 102);
+    color: #fff;
+    width: 170px;
+    height: 35px;
+    border-radius: 100px;
+    position: absolute;
+    left: 240px;
+    top: 240px;
+    letter-spacing: 1.2px;
 }

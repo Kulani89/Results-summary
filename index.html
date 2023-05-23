@@ -5,36 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>Results Summary</title>
 </head>
 <body>
     <div class="container">
         <div class="results-container">
-            <h3>Your Results</h3>
-            <div id="test-results">76<br>of 100</div>
+            <h3 class="results-txt">Your Results</h3>
+            <div id="test-results">76 <br> of 100</div>
             <h4 id="test-message">Excellent!</h4>
-            <p>You scored <span id="test-level">higher than </span> <span id="average-score">90%</span> of the people who have taken these tests</p>
+            <p>You scored higher than<span id="average-score"> 90%</span> of the people who have taken these test.</p>
         </div>
 
         <div class="summary-container">
-            <h3>Summary</h3>
-            <div id="reaction">
-                <i id="bolt" class="fa fa-bolt">bolt</i>
+
+            <h3 class="summary-txt">Summary</h3>
+
+            <div class="summary-list" id="reaction">
+                <i id="bolt" class="fa fa-bolt"></i>
                 <span id="reaction-results">00<div class="per-hundred">/100</div></span>
             </div>
-            <div id="memory">
-                <i id="memory" class="fa fa-memory">memory</i>
+
+            <div class="summary-list" id="memory">
+                <i id="memory-icon" class="fa fa-memory"></i>
                 <span id="memory-results">00<div class="per-hundred">/100</div></span>
             </div>
-            <div id="verbal">
-                <i id="verbal" class="fa fa-commenting-o">verbal</i>
+
+            <div class="summary-list" id="verbal">
+                <i id="verbal-icon" class="fa fa-comment-o"></i>
                 <span id="verbal-results">00<div class="per-hundred">/100</div></span>
             </div>
-            <div id="visual">
-                <i id="visual" class="fa fa-eye">visual</i>
+
+            <div class="summary-list" id="visual">
+                <i id="visual-icon" class="fa fa-eye"></i>
                 <span id="visual-results">00<div class="per-hundred">/100</div></span>
             </div>
-            <button id="continue-btn" type="submit">continue</button>
+            <button id="continue-btn" type="submit">Continue</button>
         </div>
     </div>
 

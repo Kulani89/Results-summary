@@ -1,11 +1,8 @@
 @media only screen and (max-width: 600px) {
     body{
-        display: flex;
-        justify-content: flex-start;
         letter-spacing: none;
         font-size: 1rem;
         height: auto;
-        /* width: auto; */
         overflow: hidden;
     }
     .container{
@@ -13,6 +10,7 @@
         display: grid;
         grid-column: auto;
         box-shadow: none;
+        width: 100%;
     }
     .results-container{
         float: none;
@@ -28,13 +26,10 @@
         position: absolute;
         left: 20px;
     }
-.summary-list{
-    position: none;
-margin: 0px 44px 10px 0px;
-    width: 200px;
-    height: 33px;
-}
-
+    .summary-list{
+        position: none;
+        margin: 0px 44px 10px 0px;
+    }
 
     #continue-btn{
         position: absolute;

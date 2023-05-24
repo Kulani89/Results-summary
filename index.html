@@ -12,7 +12,7 @@
     <div class="container">
         <div class="results-container">
             <h3 class="results-txt">Your Results</h3>
-            <div id="test-results">76 <br> of 100</div>
+            <div id="test-results"><span id="total-score">76</span><br><br> of 100</div>
             <h4 id="test-message">Excellent!</h4>
             <p>You scored higher than<span id="average-score"> 90%</span> of the people who have taken these test.</p>
         </div>
@@ -23,22 +23,26 @@
 
             <div class="summary-list" id="reaction">
                 <i id="bolt" class="fa fa-bolt"></i>
-                <span id="reaction-results">00<div class="per-hundred">/100</div></span>
+                <span class="summury-icon-txt">Reaction</span>
+                <div id="reaction-results" class="results"><span id="score">00</span><span class="per-hundred">/100</span></div>
             </div>
 
             <div class="summary-list" id="memory">
-                <i id="memory-icon" class="fa fa-memory"></i>
-                <span id="memory-results">00<div class="per-hundred">/100</div></span>
+                <i id="memory-icon" class="fa fa-brain"></i>
+                <span class="summury-icon-txt">Memory</span>
+                <div id="memory-results" class="results"><span id="score">00</span><span class="per-hundred">/100</span></div>
             </div>
 
             <div class="summary-list" id="verbal">
-                <i id="verbal-icon" class="fa fa-comment-o"></i>
-                <span id="verbal-results">00<div class="per-hundred">/100</div></span>
+                <i id="verbal-icon" class="fa fa-comment-dots"></i>
+                <span class="summury-icon-txt">Verbal</span>
+                <div id="verbal-results" class="results"><span id="score">00</span><span class="per-hundred">/100</span></div>
             </div>
 
             <div class="summary-list" id="visual">
                 <i id="visual-icon" class="fa fa-eye"></i>
-                <span id="visual-results">00<div class="per-hundred">/100</div></span>
+                <span class="summury-icon-txt">Visual</span>
+                <div id="visual-results" class="results"><span id="score">00</span><span class="per-hundred">/100</span></div>
             </div>
             <button id="continue-btn" type="submit">Continue</button>
         </div>

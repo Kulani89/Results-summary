@@ -1,0 +1,43 @@
+@media only screen and (max-width: 600px) {
+    body{
+        display: flex;
+        justify-content: flex-start;
+        letter-spacing: none;
+        font-size: 1rem;
+        height: auto;
+        /* width: auto; */
+        overflow: hidden;
+    }
+    .container{
+        position: relative;
+        display: grid;
+        grid-column: auto;
+        box-shadow: none;
+    }
+    .results-container{
+        float: none;
+        width: 230px;
+        height: 100%;
+    }
+    .summary-container{
+        float: none;
+        width: auto;
+        height: auto;
+    }
+    .summary-txt{
+        position: absolute;
+        left: 20px;
+    }
+.summary-list{
+    position: none;
+margin: 0px 44px 10px 0px;
+    width: 200px;
+    height: 33px;
+}
+
+
+    #continue-btn{
+        position: absolute;
+        left: 20px;
+    }
+}
